@@ -58,7 +58,7 @@
 
 5. If you haven't done so already, add the **eosio.code** permission to the account where the contract is stored.
 
-	This can be done using the **[eosio.code tool on naw.io](https://wax-tools.naw.io/)**
+	This can be done using the **[eosio.code tool on naw.io](https://wax-tools.naw.io/#show-tab=code-tab)**
 
 	**Note:** this is a third party tool, but it is built by a trusted, long-standing WAX community member (Nick Kusters). You can also add this permission on your own, provided you know what you are doing.
 
