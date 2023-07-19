@@ -1,17 +1,17 @@
 #pragma once
 
-
+//Symbols
 static constexpr symbol WAX_SYMBOL = symbol("WAX", 8);
 
-const name WAX_CONTRACT = "eosio.token"_n;
-
+//Numeric Limits
 const int64_t MAX_ASSET_AMOUNT = 4611686018427387903;
 const uint64_t MAX_ASSET_AMOUNT_64 = 4611686018427387903;
 const uint64_t MAX_HOURS_BETWEEN_CLAIMS = 30 * 24;
 
+//Contracts
+const name WAX_CONTRACT = "eosio.token"_n;
 const name ATOMICASSETS_CONTRACT = "atomicassets"_n;
 const name ATOMICMARKET_CONTRACT = "atomicmarket"_n;
-
 const name FARM_CONTRACT = "waxdaofarmer"_n;
 const name DAO_CONTRACT = "dao.waxdao"_n;
 
