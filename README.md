@@ -76,3 +76,7 @@ You can use this to automatically deposit funds to NFT farms, exchanges, DAO tre
 If you used WaxDAO to deploy this contract (in other words, if you supported the contract author by buying/burning an NFT), then you can just sit back - WaxDAO has a script running that checks all whitelisted accounts multiple times per day. If the account has a royalty balance to claim, AND if it has been at least **hours_between_claims** since the **last_claim**, then it will automatically get claimed and transferred to the appropriate farms/daos without you needing to do anything.
 
 However, if you did not burn an NFT to get whitelisted for this contract, and you chose to manually compile the open source code and deploy it yourself - then you are basically on your own as far as executing the **claimroyalty** action every x amount of hours. You can write your own script for that, or do it manually - that is your call. But if you want support from WaxDAO, we'd recommend the "burn an NFT" option (and we'd greatly appreciate the support!)
+
+---
+
+### *Want to support us for building this tool, and others like it? Feel free to add [waxdaovault2](https://waxblock.io/account/waxdaovault2) as a payment receiver when you deployt this contract ;)*
