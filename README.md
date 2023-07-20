@@ -1,5 +1,13 @@
 # Royalty Contract Documentation
 
+## What is this?
+
+This is a contract that will automatically split up any funds received by your account, and send those split funds to whatever accounts that you choose. 
+
+You can use this to automatically deposit funds to NFT farms, exchanges, DAO treasuries, random wax wallets, whatever you want. You can even include custom memos when you send funds out of this contract.
+
+### Deploy this contract now on [WaxDAO.io](https://waxdao.io/royalty-contract)
+
 ## Before you bother with this contract, there are a few things you should be aware of.
 
 - If you are trying to claim royalties from a collection where you do **not** own the private keys to the author wallet, then this contract is 100% useless for you. You **must** be able to upload this contract to the account who created the NFT collection (you can **not** currently do this with MyCloudWallet, at least not at the time of this writing. This may change in the future.)
