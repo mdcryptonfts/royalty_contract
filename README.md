@@ -79,4 +79,4 @@ However, if you did not burn an NFT to get whitelisted for this contract, and yo
 
 ---
 
-### *Want to support us for building this tool, and others like it? Feel free to add [waxdaovault2](https://waxblock.io/account/waxdaovault2) as a payment receiver when you deployt this contract ;)*
+### *Want to support us for building this tool, and others like it? Feel free to add [waxdaovault2](https://waxblock.io/account/waxdaovault2) as a payment receiver when you deploy this contract ;)*
