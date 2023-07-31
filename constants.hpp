@@ -12,7 +12,8 @@ const uint64_t MAX_HOURS_BETWEEN_CLAIMS = 30 * 24;
 const name WAX_CONTRACT = "eosio.token"_n;
 const name ATOMICASSETS_CONTRACT = "atomicassets"_n;
 const name ATOMICMARKET_CONTRACT = "atomicmarket"_n;
-const name FARM_CONTRACT = "waxdaofarmer"_n;
+const name FARM_CONTRACT_V1 = "waxdaofarmer"_n;
+const name FARM_CONTRACT_V2 = "farms.waxdao"_n;
 const name DAO_CONTRACT = "dao.waxdao"_n;
 
 
@@ -29,3 +30,4 @@ static const char* DAO_DEPOSIT_MEMO(const name& dao_name) {
 static const char* ERR_CONFIG_NOT_FOUND = "could not locate config";
 static const char* ERR_DAO_DOESNT_EXIST = "dao does not exist";
 static const char* ERR_FARM_DOESNT_EXIST = "farm does not exist";
+static const char* ERR_RULE_DOESNT_EXIST = "rule does not exist for this token";
